@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+}
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+     
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color:#FFFFFF;
+    left: 0;
+    top: 0;
+    bottom:0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#51b8b4 0%,#125cdb 100%);
+    display: table;
+        height: 100%;
+    width: 100%;
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align:middle ;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: fantasy;
+}
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: monospace;
+}
+h2{
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 40px;
+    font-family: fantasy;
+    
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin:8px auto;
+}
+p{
+    max-width: 450px;
+    font-size:17px;
+    margin:25px auto;
+    line-height:1.3;
+}
